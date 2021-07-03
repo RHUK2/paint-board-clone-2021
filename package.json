@@ -6,8 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RHU5/paint-board.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RHU5/paint-board/issues"
+  },
+  "homepage": "https://github.com/RHU5/paint-board#readme",
   "devDependencies": {
     "eslint": "^7.30.0"
   }

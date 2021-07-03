@@ -1,3 +1,85 @@
-.test {
-  color: blue;
+@import 'reset.css';
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: beige;
+  box-sizing: border-box;
+}
+
+.top-of-wrapper {
+  width: 1280px;
+  height: 960px;
+  margin: 0px calc(50% - 640px);
+  display: flex;
+  justify-content: center;
+}
+
+.canvas-container {
+  margin-top: 2rem;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.canvas {
+  width: 100%;
+  height: 70%;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem 1rem black;
+}
+
+.control-colors {
+  margin-top: 5rem;
+  width: 80%;
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.color {
+  width: 7.5%;
+  border-radius: 50%;
+  box-shadow: 0.1rem 0.1rem 1rem black;
+}
+
+.control-btns {
+  margin-top: 5rem;
+  width: 40%;
+  height: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 40%;
+  font-size: 2.5rem;
+  border-radius: 1rem;
+  border: none;
+  box-shadow: 0.1rem 0.1rem 1rem black;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+.btn:active {
+  box-shadow: inset -0.1rem -0.1rem 0.5rem black;
+}
+
+.control-range {
+  margin-top: 5rem;
+  width: 40%;
+}
+
+.range {
+  width: 100%;
 }
